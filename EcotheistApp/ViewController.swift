@@ -24,8 +24,7 @@ class ViewController: UIViewController {
         otherButton.layer.cornerRadius = 10
         otherButton.clipsToBounds = true
         // Do any additional setup after loading the view.
-    }
-
-
+        
 }
 
+}
