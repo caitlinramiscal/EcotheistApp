@@ -10,11 +10,14 @@ import UIKit
 class CompleteToDoViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var deleteButton: UIButton!
     var previousVC = ToDoTableTableViewController()
     var selectedToDo : ToDoCD?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        deleteButton.layer.cornerRadius = 10
+        deleteButton.clipsToBounds = true
         titleLabel.text = selectedToDo?.name
         // Do any additional setup after loading the view.
     }

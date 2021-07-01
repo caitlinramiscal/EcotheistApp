@@ -10,11 +10,14 @@ import UIKit
 class AddToDoViewController: UIViewController {
 
     @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var importantSwitch: UISwitch!
     var previousVC = ToDoTableTableViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        addButton.layer.cornerRadius = 10
+        addButton.clipsToBounds = true
 
         // Do any additional setup after loading the view.
     }

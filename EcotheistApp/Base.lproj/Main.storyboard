@@ -88,6 +88,7 @@
                                 <rect key="frame" x="126" y="404" width="158" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5607843137254902" green="0.75294117647058822" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
                                 <state key="normal" title="Delete">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -116,6 +117,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="7o8-7H-JdK"/>
                     <connections>
+                        <outlet property="deleteButton" destination="srD-ae-s04" id="9yK-BO-gZp"/>
                         <outlet property="titleLabel" destination="4zU-Zi-fuc" id="A3M-vX-S73"/>
                     </connections>
                 </viewController>
@@ -499,7 +501,7 @@
         <!--Budget-->
         <scene sceneID="8bs-wz-YbJ">
             <objects>
-                <viewController id="MJy-CP-dYm" sceneMemberID="viewController">
+                <viewController id="MJy-CP-dYm" customClass="ViewController" customModule="EcotheistApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uZW-P8-yMa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -542,6 +544,12 @@
                         <color key="backgroundColor" red="0.40784313729999999" green="0.69019607839999997" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Budget" id="AVZ-VP-TYp"/>
+                    <connections>
+                        <outlet property="clothingButton" destination="Hfm-cY-O26" id="4Aq-Ig-PPb"/>
+                        <outlet property="foodButton" destination="7cu-mZ-TPf" id="BzM-ht-68G"/>
+                        <outlet property="otherButton" destination="KDU-7m-yZL" id="chd-EA-3mK"/>
+                        <outlet property="travelButton" destination="2QM-ZT-ScU" id="qRO-Av-qKm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efE-lt-yxN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -638,6 +646,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="YZ9-4o-L5R"/>
                     <connections>
+                        <outlet property="addButton" destination="6aN-RX-Mda" id="0GY-PK-61r"/>
                         <outlet property="importantSwitch" destination="zOT-Ub-YH6" id="abg-xJ-Jyg"/>
                         <outlet property="titleTextField" destination="PrY-EI-H4F" id="KNB-Bf-VHz"/>
                     </connections>
