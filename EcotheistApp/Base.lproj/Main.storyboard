@@ -15,9 +15,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mrs-UC-3a2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.56078431370000004" green="0.75294117650000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="selectedImageTintColor" red="0.40784313729999999" green="0.69019607839999997" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="0.2901960784" green="0.48627450979999998" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="c2B-Xi-kZ2" kind="relationship" relationship="viewControllers" id="aUl-7I-jEC"/>
@@ -35,7 +34,7 @@
         <scene sceneID="LMK-YS-zTM">
             <objects>
                 <navigationController id="Xj4-CU-0R1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" id="U39-fc-ugO"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="book.fill" catalog="system" id="U39-fc-ugO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="K2d-zZ-BVE">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -58,7 +57,7 @@
         <scene sceneID="NLk-fW-tQp">
             <objects>
                 <navigationController id="jIl-kE-kUm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Quizzes" id="K55-Rq-T6e"/>
+                    <tabBarItem key="tabBarItem" title="Quizzes" image="questionmark.circle.fill" catalog="system" id="K55-Rq-T6e"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="OUH-nz-IJJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -81,7 +80,7 @@
         <scene sceneID="WJR-xS-eEK">
             <objects>
                 <navigationController id="SEW-9m-lCX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Calendar" id="C6w-mf-7xc"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="C6w-mf-7xc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="myp-dk-kef">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -104,7 +103,7 @@
         <scene sceneID="aoG-w0-50A">
             <objects>
                 <navigationController id="RXl-wX-jDx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Budget" id="rie-0w-tXV"/>
+                    <tabBarItem key="tabBarItem" title="Budget" image="dollarsign.circle.fill" catalog="system" id="rie-0w-tXV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vff-8B-j6u">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -127,7 +126,7 @@
         <scene sceneID="bjZ-KO-3TX">
             <objects>
                 <navigationController id="c2B-Xi-kZ2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="Jhq-Ht-U8s"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="Jhq-Ht-U8s"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="n5l-Xo-dKv">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -370,6 +369,11 @@
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="Image from iOS (3)" width="2732" height="2048"/>
+        <image name="book.fill" catalog="system" width="128" height="102"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
